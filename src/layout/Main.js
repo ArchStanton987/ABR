@@ -1,4 +1,5 @@
 import Section from '../components/Section'
+import ImagesContainer from '../components/ImagesContainer'
 import '../layout.css'
 
 export default function Main() {
@@ -14,6 +15,7 @@ export default function Main() {
       <Section>
         <h3>Forfaits</h3>
         <p>Trois forfaits vous sont proposés :</p>
+        <ImagesContainer />
       </Section>
       <Section>
         <h3>Pré-requis</h3>
