@@ -25,13 +25,22 @@ export default function Main() {
             <p>Avoir l’application Discord</p>
           </li>
         </ul>
-        <p>Si vous n’êtes pas du tout familier avec Motec, <a>vous pouvez suivre ce tutoriel</a>. </p>
+        <p>
+          Si vous n’êtes pas du tout familier avec Motec,{' '}
+          <a href="https://www.youtube.com/watch?v=ltIzj30gcTM" target="blank">
+            vous pouvez suivre ce tutoriel
+          </a>
+          .{' '}
+        </p>
       </Section>
       <Section>
         <h3>Déroulement d'une session</h3>
         <ul>
           <li>
-            <p>Vous choisissez le combo de votre choix (circuit / voiture), les conditions (sec, humide, détrempé) et les circonstantes (hotlap, course , endurance, sprint).</p>
+            <p>
+              Vous choisissez le combo de votre choix (circuit / voiture), les conditions (sec,
+              humide, détrempé) et les circonstantes (hotlap, course, endurance, sprint).
+            </p>
           </li>
           <li>
             <p>Vous effectuez des tours sur le combo choisi.</p>
@@ -43,7 +52,9 @@ export default function Main() {
             <p>Vous donnez votre ressenti sur le comportement de la voiture.</p>
           </li>
           <li>
-            <p>A partir de votre fichier de télémétrie,nous élaborons votre setup durant environ 1h.</p>
+            <p>
+              A partir de votre fichier de télémétrie, nous élaborons votre setup durant environ 1h.
+            </p>
           </li>
         </ul>
       </Section>
