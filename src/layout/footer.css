@@ -1,4 +1,20 @@
 footer {
   background-color: #1f1f1f;
   border-top: solid 3px #62b1ca;
+  color: #62b1ca;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Jura';
+}
+.footer-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.social-media-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
