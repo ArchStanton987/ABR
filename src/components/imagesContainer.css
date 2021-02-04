@@ -5,10 +5,41 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.formulaImg {
+.forfait-figure {
+  position: relative;
   width: 30%;
   height: 250px;
+}
+.forfait-img {
   object-fit: cover;
-  border: solid 1px #175f75 ;
-  border-radius: 10%;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  filter: brightness(0.65);
+  border: solid 1px#62b1ca;
+  border-radius: 18px;
+}
+figure h4 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-shadow: 0 0 10px black;
+  z-index: 10;
+}
+figure h4 strong {
+  font-size: 28px;
+  font-weight: 600;
+}
+figure ul {
+  position: absolute;
+  bottom: 0.5rem;
+  z-index: 10;
+  list-style: none;
+  margin: 0 0;
+  padding: 0 1rem;
+  text-shadow: 0 0 10px black;
 }
