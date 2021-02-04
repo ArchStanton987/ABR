@@ -50,3 +50,7 @@ footer {
   height: 3rem;
   width: 3rem;
 }
+
+a {
+  outline: none;
+}

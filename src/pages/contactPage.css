@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 450px;
+  margin: 2rem auto;
+}
+label {
+  font-family: 'Sunflower';
+  margin: 1rem 0 5px;
+}
+textarea {
+  min-height: 150px;
+}
+input, select, textarea {
+  background-color: #4e4e4e;
+  border: solid 1px #62b1ca;
+  color: #e1e1e1;
+  border-radius: 10px;
+  padding: 10px;
+}
+.submitButton {
+  background-color: #62b1ca;
+  border: none;
+  color: #e1e1e1;
+  font-weight: bold;
+  margin-top: 2rem;
+  font-family: 'Jura', sans-serif;
+  padding: 15px;
+}
+.submitButton:hover {
+  cursor: pointer;
+}
