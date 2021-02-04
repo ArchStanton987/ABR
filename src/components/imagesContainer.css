@@ -43,3 +43,6 @@ figure ul {
   padding: 0 1rem;
   text-shadow: 0 0 10px black;
 }
+.img-link {
+  text-decoration: none;
+}

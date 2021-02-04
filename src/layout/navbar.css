@@ -5,7 +5,7 @@ nav {
 nav h2 {
   font-family: 'Jura', sans-serif;
   font-weight: 500;
-  font-size: 16;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 nav ul {
@@ -15,4 +15,13 @@ nav ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: #e1e1e1;  
+}
+.selected {
+  padding: 10px 0;
+  color: #62b1CA;
+  border-bottom: 3px solid #62b1ca;
 }

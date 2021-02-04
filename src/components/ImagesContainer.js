@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import pic1 from '../assets/img/ABR1.png'
 import pic2 from '../assets/img/ABR2.png'
 import pic3 from '../assets/img/ABR3.png'
@@ -19,11 +21,15 @@ export default function ImagesContainer() {
               <p>1 setup</p>
             </li>
             <li>
-              <p><strong>9,99 €</strong></p>
+              <p>
+                <strong>9,99 €</strong>
+              </p>
             </li>
           </ul>
         </figcaption>
-        <img className="forfait-img" src={pic1} alt="forfait simple"></img>
+        <Link className="img-link" to="/contact">
+          <img className="forfait-img" src={pic1} alt="forfait simple"></img>
+        </Link>
       </figure>
       <figure className="forfait-figure">
         <figcaption className="forfait-name">
@@ -35,11 +41,15 @@ export default function ImagesContainer() {
               <p>3 setups</p>
             </li>
             <li>
-              <p><strong>24,99 €</strong></p>
+              <p>
+                <strong>24,99 €</strong>
+              </p>
             </li>
           </ul>
         </figcaption>
-        <img className="forfait-img" src={pic2} alt="forfait cup"></img>
+        <Link className="img-link" to="/contact">
+          <img className="forfait-img" src={pic2} alt="forfait cup"></img>
+        </Link>
       </figure>
       <figure className="forfait-figure">
         <figcaption className="forfait-name">
@@ -54,11 +64,15 @@ export default function ImagesContainer() {
               <p>Mise à jour gratuite</p>
             </li>
             <li>
-              <p><strong>49,99 €</strong></p>
+              <p>
+                <strong>49,99 €</strong>
+              </p>
             </li>
           </ul>
         </figcaption>
-        <img className="forfait-img" src={pic3} alt="forfait championnat"></img>
+        <Link className="img-link" to="/contact">
+          <img className="forfait-img" src={pic3} alt="forfait championnat"></img>
+        </Link>
       </figure>
     </div>
   )
