@@ -3,7 +3,6 @@ import Section from '../components/Section'
 import './contactPage.css'
 
 export default function ContactPage() {
-
   const handleSubmit = e => {
     e.preventDefault()
   }
@@ -18,16 +17,16 @@ export default function ContactPage() {
         </p>
         <form onSubmit={handleSubmit} method="post" id="contactForm">
           <label htmlFor="userEmail">Votre email</label>
-          <input id="userEmail" type="text"></input>
+          <input id="userEmail" type="text" required></input>
           <label htmlFor="object">Objet</label>
-          <select id="object" name="object" form="contactForm">
+          <select id="object" name="object" form="contactForm" required>
             <option value="Informations">Informations</option>
             <option value="Forfait simple">Forfait simple</option>
             <option value="Forfait cup">Forfait cup</option>
             <option value="Forfait championnat">Forfait championnat</option>
           </select>
           <label htmlFor="userMessage">Message</label>
-          <textarea id="userMessage"></textarea>
+          <textarea id="userMessage" required></textarea>
           <input className="submitButton" type="submit" />
         </form>
       </Section>

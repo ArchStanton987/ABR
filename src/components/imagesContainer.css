@@ -10,6 +10,17 @@
   width: 30%;
   height: 250px;
 }
+@media screen and (max-width: 900px) {
+  .images-container {
+    flex-direction: column;
+  }
+  .forfait-figure {
+    width: 90%;
+    max-width: 400px;
+    margin: 1rem 0;
+  }
+}
+
 .forfait-img {
   object-fit: cover;
   height: 100%;

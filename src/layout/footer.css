@@ -2,19 +2,38 @@ footer {
   background-color: #1f1f1f;
   border-top: solid 3px #62b1ca;
   color: #62b1ca;
+  font-family: 'Jura';
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-family: 'Jura';
-}
-.footer-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+  position: relative;
 }
 .social-media-list {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+}
+.social-media-list li {
+  margin: 0 1rem;
+}
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  right: 1rem;
+}
+@media screen and (max-width: 650px) {
+  footer {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .author {
+    position: static;
+  }
+}
+@media screen and (max-width: 460px) {
+  footer {
+    flex-direction: column;
+  }
 }

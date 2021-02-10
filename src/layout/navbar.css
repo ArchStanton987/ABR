@@ -1,8 +1,12 @@
 nav {
   display: flex;
   flex: 1;
+  align-items: center;
 }
-nav h2 {
+h1 {
+  text-align: center;
+}
+nav h2, h1 {
   font-family: 'Jura', sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -20,8 +24,14 @@ nav a {
   text-decoration: none;
   color: #e1e1e1;  
 }
+@media screen and (max-width: 750px) {
+  nav h2 {
+    font-size: 18px;
+  }
+}
 .selected {
   padding: 10px 0;
   color: #62b1CA;
   border-bottom: 3px solid #62b1ca;
 }
+

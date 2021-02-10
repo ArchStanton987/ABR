@@ -12,24 +12,12 @@ export default function Main() {
   return (
     <main>
       <Switch>
-        <Route
-          exact
-          path="/"
-          render={() => <HomePage />} />
-        <Route
-          path="/contact"
-          render={() => <ContactPage />} />
-        <Route
-          path="/palmares"
-          render={() => <ResultsPage />} />
-        <Route
-          path="/team"
-          render={() => <TeamPage />} />
-        <Route
-          path="/partenaires"
-          render={() => <SponsorsPage />} />        
+        <Route exact path="/" render={() => <HomePage />} />
+        <Route path="/contact" render={() => <ContactPage />} />
+        <Route path="/palmares" render={() => <ResultsPage />} />
+        <Route path="/team" render={() => <TeamPage />} />
+        <Route path="/partenaires" render={() => <SponsorsPage />} />
       </Switch>
-      
     </main>
   )
 }
