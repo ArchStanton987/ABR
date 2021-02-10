@@ -23,6 +23,10 @@ footer {
   position: absolute;
   right: 1rem;
 }
+.author a {
+  text-decoration: none;
+  color: #62b1ca;
+}
 @media screen and (max-width: 650px) {
   footer {
     justify-content: space-evenly;

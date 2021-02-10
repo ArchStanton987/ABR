@@ -74,7 +74,7 @@ a {
 
 @media screen and (max-width: 650px) {
   .desktop-only {
-    display: none;  
+    display: none;
   }
 }
 @media screen and (min-width: 650px) {

@@ -1,0 +1,7 @@
+.results-list {
+  list-style: none;
+}
+.results-list li {
+  margin: 5px 0;
+  border-bottom: 1px solid #696969;
+}
