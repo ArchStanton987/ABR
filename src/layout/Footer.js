@@ -9,10 +9,14 @@ export default function Footer() {
     <footer>
       <ul className="social-media-list">
         <li>
-          <img src={facebookLogo} alt="facebook" />
+          <a href="https://www.facebook.com/albanwya" target="blank">
+            <img src={facebookLogo} alt="facebook" />
+          </a>
         </li>
         <li>
-          <img src={twitchLogo} alt="twitch" />
+          <a href="https://www.twitch.tv/albanbouquet_racing" target="blank">
+            <img src={twitchLogo} alt="twitch" />
+          </a>
         </li>
         <li>
           <img src={instaLogo} alt="instagram" />
