@@ -4,7 +4,7 @@ import '../layout.css'
 
 export default function HomePage() {
   return (
-    <>
+    <article>
       <Section>
         <h3>Vos setups personnalisés sur Assetto Corsa Competizione</h3>
         <p>
@@ -60,6 +60,6 @@ export default function HomePage() {
           </li>
         </ul>
       </Section>
-    </>
+    </article>
   )
 }

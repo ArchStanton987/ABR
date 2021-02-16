@@ -1,0 +1,18 @@
+.sponsors-container {
+  height: 200px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sponsors-container:nth-child(odd) {
+  background-color: #175f75;
+}
+.sponsors-container:nth-child(even) {
+  background-color: #62b1ca;
+}
+.sponsor-img {
+  max-height: 200px;
+  max-width: 275px;
+}

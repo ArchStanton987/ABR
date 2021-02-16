@@ -3,7 +3,7 @@ import './resultsPage.css'
 
 export default function ResultsPage() {
   return (
-    <>
+    <article>
       <Section>
         <h3>2021 - Assetto Corsa Competizione</h3>
         <ul className="results-list">
@@ -41,6 +41,6 @@ export default function ResultsPage() {
           </li>
         </ul>
       </Section>
-    </>
+    </article>
   )
 }

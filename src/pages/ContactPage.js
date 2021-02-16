@@ -41,7 +41,7 @@ export default function ContactPage() {
   }
 
   return (
-    <>
+    <article>
       <Section>
         <h3>Contact</h3>
         <p>
@@ -83,6 +83,6 @@ export default function ContactPage() {
           <input className="submitButton" type="submit" />
         </form>
       </Section>
-    </>
+    </article>
   )
 }
